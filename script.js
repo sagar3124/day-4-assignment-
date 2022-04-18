@@ -1,4 +1,4 @@
-1.	How to compare two JSON have the same properties without order?
+// 1.	How to compare two JSON have the same properties without order?
 
 var obj1 = { name: "Person 1", age:5 };
 var obj2 = { age:5, name: "Person 1" };
@@ -7,7 +7,7 @@ console.log(_.isEqual(obj1, obj2));
 
 
 
-2.	Use the rest countries API and display all the country flags in console.
+// 2.	Use the rest countries API and display all the country flags in console.
 
 let result;
 async function fetchData(){
@@ -25,7 +25,7 @@ fetchData();
 
 
 
-3.	Use the same rest countries and print all countries name, region, sub region and population
+// 3.	Use the same rest countries and print all countries name, region, sub region and population
 
 let result;
 async function fetchData(){
